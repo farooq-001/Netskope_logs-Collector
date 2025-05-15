@@ -5,6 +5,7 @@ echo "🔐 Fill the Netskope-API Keys:"
 # Prompt for required values
 read -p "Enter API_TOKEN: " API_TOKEN
 read -p "Enter TENANT_HOSTNAME: " TENANT_HOSTNAME
+
 echo ""
 echo "🧭 Fill the Filebeat Configuration:"
 read -p "Enter SENSOR_ID: " SENSOR_ID
